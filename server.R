@@ -4,7 +4,7 @@ library(ggplot2)
 library(shiny)
 
 # Read in data
-df <- read.csv('~/OneDrive/Desktop/Datasets/DelayedFlights.csv') %>%
+df <- read.csv('~/DelayedFlights.csv') %>%
   select(ArrDelay, DepDelay, Distance, AirTime) %>%
   drop_na()
 
